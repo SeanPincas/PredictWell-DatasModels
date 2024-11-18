@@ -1,0 +1,632 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "What's up? How do you do?",
+        "How's everything?",
+        "Good morning/evening/afternoon/night",
+        "Hello",
+        "Hi there",
+        "Hi",
+        "Hey",
+        "Good to see you",
+        "How are you?",
+        "How’s it going?",
+        "Hope you're doing well!",
+        "Nice to meet you",
+        "How do you do?",
+        "Greetings",
+        "What's going on?",
+        "What's new?",
+        "Good day",
+        "What’s happening?",
+        "How have you been?",
+        "Hello there",
+        "Howdy"
+      ],
+      "responses": [
+        "Hello! How can I assist you today? This chatbot specializes in disease prediction, feel free to use it!",
+        "Hey there! What's up? Remember, this chatbot specializes in disease prediction, so feel free to ask!",
+        "Hi! How’s it going? This chatbot is here to help with disease prediction, so don’t hesitate to use it!",
+        "Good to see you! How can I help? This chatbot specializes in disease prediction, feel free to explore!",
+        "Hello! Hope you’re doing well! This chatbot is designed for disease prediction, so feel free to ask away!",
+        "Greetings! Need any assistance? This chatbot specializes in disease prediction, so make the most of it!",
+        "Hi there! What’s on your mind? This chatbot is here to assist with disease prediction, so feel free to inquire!",
+        "Hey! How’s everything? This chatbot specializes in disease prediction, so don’t hesitate to use it!",
+        "Hello! How’s your day so far? Remember, this chatbot specializes in disease prediction, feel free to explore!",
+        "Hi! Ready when you are! This chatbot is equipped for disease prediction, so feel free to ask anything!",
+        "Hello there! Need any help? This chatbot specializes in disease prediction, so make sure to use its features!",
+        "Hey, how’s it going? This chatbot is focused on disease prediction, so feel free to utilize its capabilities!",
+        "Good day! How can I assist? This chatbot specializes in disease prediction, so don’t hesitate to ask!",
+        "Nice to see you! How can I help? This chatbot is here to help with disease prediction, so feel free to ask!",
+        "Hi! What can I do for you? This chatbot specializes in disease prediction, so make the most of it!",
+        "Hey there! Feel free to ask anything. This chatbot is designed for disease prediction, so don’t hesitate to explore!",
+        "Hello! Here to help however I can. This chatbot specializes in disease prediction, so feel free to utilize it!",
+        "Good to see you! Let me know how I can assist. This chatbot is focused on disease prediction, so ask away!",
+        "Hello! Looking forward to helping you! This chatbot specializes in disease prediction, so feel free to inquire!",
+        "Hi! What's happening today? This chatbot is here to assist with disease prediction, so don’t hesitate to ask!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "confirmation",
+      "patterns": [
+        "Okay",
+        "Good",
+        "Right",
+        "Sounds good",
+        "Alright",
+        "Understood",
+        "Got it",
+        "Makes sense",
+        "That works",
+        "Perfect",
+        "Exactly",
+        "All set",
+        "I agree",
+        "I got you",
+        "Sure thing",
+        "That’s correct",
+        "Confirmed",
+        "Absolutely",
+        "Great",
+        "Indeed"
+      ],
+      "responses": [
+        "Thank you for confirming!",
+        "Got it, thanks for confirming!",
+        "Thank you for letting me know!",
+        "I appreciate the confirmation!",
+        "Thanks for confirming!",
+        "Great, thank you for confirming!",
+        "Perfect, thanks for confirming!",
+        "Thanks for the confirmation!",
+        "Alright, thank you for confirming!",
+        "Thanks, I’ll proceed with that!",
+        "Thank you for letting me know!",
+        "Got it, thanks for the confirmation!",
+        "Thanks for the update!",
+        "Much appreciated, thank you!",
+        "Thanks for confirming that!",
+        "Appreciate the confirmation!",
+        "Thank you, noted!",
+        "Thanks, that helps!",
+        "Thank you, moving forward now!",
+        "Great, I appreciate the confirmation!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "false",
+      "patterns": [
+        "That's not right.",
+        "wrong",
+        "You got that wrong.",
+        "No, that's incorrect.",
+        "That's not what I meant.",
+        "You misunderstood.",
+        "That's not the right information.",
+        "That's incorrect, try again.",
+        "No, that's not accurate.",
+        "That's not how it works.",
+        "You missed the point.",
+        "That's not true.",
+        "You're mistaken.",
+        "That's not what I asked.",
+        "That's a mistake.",
+        "You need to fix that."
+      ],
+      "responses": [
+        "I appreciate your correction! Let me try again.",
+        "Thank you for pointing that out! I'll correct it.",
+        "Thanks for the clarification! I'll make sure to improve.",
+        "I apologize for the mistake! Here’s the correct information.",
+        "Thanks for catching that! Let me provide the right answer.",
+        "I appreciate your feedback! I'll work on that.",
+        "Thank you for correcting me! What can I help you with next?",
+        "I’m sorry for the confusion! Let me clarify.",
+        "Thanks for your input! I’ll ensure I get it right next time.",
+        "I appreciate your patience! Let me correct that for you.",
+        "Thank you for the correction! I’ll strive to do better.",
+        "Sorry about that! Let’s set the record straight.",
+        "I appreciate you bringing this to my attention! Here’s the correct info.",
+        "Thanks for your understanding! What else can I assist you with?",
+        "I’m grateful for your feedback! How can I help you now?",
+        "I apologize for any errors! I’m here to assist you."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "profanity",
+      "patterns": [
+        "What the hell?",
+        "This is stupid",
+        "Damn it",
+        "You're an idiot",
+        "I don't care",
+        "This is ridiculous",
+        "What the fuck?",
+        "Shut up",
+        "I hate this",
+        "You're useless",
+        "What the hell is wrong with you?",
+        "This is bullshit",
+        "Fuck off",
+        "Screw this",
+        "This is a waste of time",
+        "You're such a moron",
+        "What the fuck is going on?",
+        "Get lost",
+        "This is a joke",
+        "Fucking ridiculous",
+        "This sucks",
+        "You're full of shit",
+        "Why the hell would you say that?",
+        "You're annoying",
+        "Damn it, just stop",
+        "Shit happens",
+        "What the fuck is your problem?",
+        "This is absolute crap",
+        "I can't stand this",
+        "Just leave me alone",
+        "You're driving me crazy",
+        "Stop being such a jerk",
+        "This is a nightmare",
+        "Fuck hell",
+        "This is pathetic",
+        "You really suck",
+        "Get your shit together",
+        "What a waste",
+        "Shut the hell up",
+        "I'm so done with this",
+        "What the fuck did you just say?",
+        "You're a piece of shit",
+        "This is such bullshit",
+        "You're pissing me off",
+        "Get the fuck out of here",
+        "I'm over this",
+        "This is so frustrating",
+        "What kind of crap is this?",
+        "You're such a loser",
+        "Fuck you",
+        "Why the fuck are you doing this?",
+        "This is a fucking disaster",
+        "You don't know what you're talking about",
+        "Why the hell should I listen to you?",
+        "What the hell are you thinking?",
+        "This is absolute nonsense",
+        "Get your act together",
+        "You’ve got to be kidding me",
+        "This is totally unfair",
+        "What a load of crap",
+        "I can't believe you said that",
+        "You're an idiot for saying that",
+        "Tanga ka", // You're an idiot!
+        "Punyeta", // Damn it!
+        "Buwis-buhay", // Life-threatening!
+        "Putang ina", // Son of a bitch!
+        "Kupal", // Asshole!
+        "Tanga", // Stupid!
+        "Walang kwenta", // Useless!
+        "Tangina mo", // Damn you!
+        "Gago", // Fool!
+        "Bastos ka", // You're rude!
+        "Kahindik-hindik", // Horrifying!
+        "Walang utang na loob", // Ungrateful!
+        "Kunsintidor", // Enabler!
+        "Bobo", // Dumb!
+        "Bitch mo", // Your bitch!
+        "Buwisit", // Annoyance!
+        "Sira ulo", // Crazy!
+        "Walang silbi", // Worthless!
+        "Nakakainis", // Annoying!
+        "Tangina ng buhay mo", // Damn your life!
+        "Sipsip", // Suck-up!
+        "Duwag", // Coward!
+        "Pahingi ng pera", // Give me money! (used in a demanding tone)
+        "Huwag kang ganyan", // Don't be like that!
+        "Ang sama mo", // You're mean!
+        "Papatay ako", // I'll kill you! (used in anger)
+        "Kamatayan mo", // Your death!
+        "Sakit ng ulo", // Headache! (implying frustration)
+        "Nakakabuwisit", // So annoying!
+        "Wala kang kwenta", // You're worthless!
+        "Putahe", // Bitch (referring to a person in a derogatory manner)
+        "Bumaba ka sa lupa", // Get down to earth! (implying arrogance)
+        "Sama ng loob", // Bad feelings! (implying bitterness)
+        "Walang dahilan" // No reason! (implying pointless behavior)
+      ],
+      "responses": [
+        "I understand that you're upset. How can I assist you better?",
+        "I appreciate your feedback! Let's focus on finding a solution.",
+        "I’m here to help, so let’s keep the conversation positive!",
+        "I’m sorry if I’ve frustrated you. What can I do to help?",
+        "I hear you! Let's work together to make this better.",
+        "I understand this might be frustrating. How can I assist you further?",
+        "I’m here to help, so let’s try to keep things constructive!",
+        "I get it; sometimes things can be overwhelming. What do you need?",
+        "I appreciate your honesty! Let’s see how I can assist you.",
+        "I'm here to support you. Let’s focus on resolving the issue!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "wellbeing",
+      "patterns": [
+        "How are you?",
+        "How are you doing/going?",
+        "Are you feeling alright?"
+      ],
+      "responses": [
+        "I'm doing splendidly, thanks for asking!",
+        "Can't complain, another day in paradise.",
+        "Couldn't be better, how about yourself?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "medicines",
+      "patterns": [
+        "Can you recommend a medication for my headache?",
+        "What medicine should I take for a cold?",
+        "Is there a pill for anxiety?",
+        "Can you help me with medication dosage?",
+        "What are the side effects of this medicine?",
+        "Which over-the-counter drugs are best for allergies?",
+        "Can I take this medicine with my other prescriptions?",
+        "What is the best treatment for a sore throat?",
+        "How long does this medication take to work?",
+        "Can you tell me about the benefits of this drug?",
+        "What should I do if I miss a dose?",
+        "Is it safe to combine these medications?",
+        "What medication is effective for insomnia?",
+        "How do I know if this medicine is right for me?",
+        "Are there any natural alternatives to this medication?",
+        "What should I do if I have a bad reaction to a drug?",
+        "Can you tell me how this medicine works?",
+        "What medications should I avoid while pregnant?",
+        "Is there a generic version of this drug?",
+        "Can I get a prescription through this chatbot?",
+        "What should I do if I run out of my medication?"
+      ],
+      "responses": [
+        "I'm here to help with disease prediction, but I cannot prescribe or recommend medications. Please consult a healthcare professional for any medication-related inquiries.",
+        "While I can assist with understanding diseases, this system is not designed to prescribe or recommend medicines. Please seek advice from a healthcare professional.",
+        "This chatbot specializes in disease prediction and is not equipped to handle medication-related questions. Always consult a healthcare provider for those concerns.",
+        "I can provide insights on disease prediction, but please remember that I'm not designed to handle or prescribe medications. It's important to consult a healthcare professional.",
+        "For any medication inquiries, please consult a healthcare professional. This system is focused solely on disease prediction."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "remedies",
+      "patterns": [
+        "What natural remedies can I try for my headache?",
+        "Are there home remedies for a cold?",
+        "Can you suggest any remedies for anxiety?",
+        "What are some effective remedies for sore throat?",
+        "How can I alleviate my allergy symptoms naturally?",
+        "What can I do to relieve insomnia without medication?",
+        "Are there any herbal remedies for stress?",
+        "What are the best remedies for digestive issues?",
+        "Can you recommend any soothing remedies for a cough?",
+        "What are some remedies for muscle pain?"
+      ],
+      "responses": [
+        "If you're looking for remedies to alleviate your discomfort, feel free to visit our website for more information. We also strongly recommend seeking consultation from healthcare professionals.",
+        "To learn more about effective remedies for your symptoms, you can check out our website. Remember, it's always best to consult with healthcare professionals for personalized advice.",
+        "For various remedies that might help with your discomfort, visit our website. However, we strongly encourage you to seek advice from healthcare professionals.",
+        "If you want to explore remedies for your discomfort, please visit our website for additional information. Consulting with healthcare professionals is highly recommended.",
+        "For information on remedies to help ease your discomfort, please visit our website. Always consider consulting healthcare professionals for the best advice."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "gratitude",
+      "patterns": [
+        "Thank you!",
+        "Thanks a lot!",
+        "I appreciate it!",
+        "Thank you so much!",
+        "Many thanks!",
+        "Thanks!",
+        "I’m grateful!",
+        "Much appreciated!",
+        "Thanks for your help!",
+        "Thank you for your assistance!",
+        "I really appreciate your help!",
+        "Big thanks!",
+        "You’re a lifesaver!",
+        "Thanks a ton!",
+        "Very felpful",
+        "That’s so helpful, thank you!"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad I could help!",
+        "Anytime!",
+        "My pleasure!",
+        "Happy to assist!",
+        "You're very welcome!",
+        "I'm always here to help!",
+        "No problem at all!",
+        "It was my pleasure!",
+        "I'm happy you found it useful!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "prompt",
+      "patterns": [
+        "Tell me something",
+        "Share a fun fact",
+        "Give me a random fact",
+        "Tell me a health tip",
+        "Do you know any fun facts?",
+        "Surprise me with a fact",
+        "Tell me something interesting",
+        "Can you share a health fact?",
+        "Share a random health fact",
+        "Give me an interesting tip"
+      ],
+      "responses": [
+        "Did you know that laughing can boost your immune system and reduce stress?",
+        "Drinking water first thing in the morning helps jump-start your metabolism.",
+        "Walking just 30 minutes a day can reduce your risk of heart disease.",
+        "Dark chocolate is rich in antioxidants and can be good for your heart in moderation!",
+        "Getting enough sleep can improve memory and help you live longer.",
+        "Avocados are packed with healthy fats and can lower bad cholesterol levels.",
+        "Chewing gum can improve concentration and even help with memory!",
+        "Bananas are a natural mood booster due to their high levels of vitamin B6.",
+        "Eating carrots really does help your eyesight—they’re rich in beta-carotene, which is good for vision.",
+        "Staying socially active is important for mental health and longevity.",
+        "Regular exercise can make you happier by releasing endorphins, which are mood-boosting hormones.",
+        "Listening to music can relieve stress and even lower blood pressure.",
+        "Good posture can improve circulation and digestion and even boost energy levels!",
+        "Apples can provide a natural energy boost and are a good source of fiber.",
+        "Crying can be good for you—it helps relieve stress and remove toxins from the body.",
+        "Sunlight boosts vitamin D production, which is essential for bone health and mood.",
+        "Drinking green tea can boost metabolism and aid in weight loss.",
+        "Smiling can actually trick your brain into feeling happier!",
+        "Eating fish high in omega-3 fatty acids can help improve brain function.",
+        "Taking breaks and resting your eyes can reduce digital eye strain and improve productivity."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "capability",
+      "patterns": [
+        "How can you help me?",
+        "What can you do?",
+        "What can you assist me with?"
+      ],
+      "responses": [
+        "Why, I'm quite the Med bot - I can assist with medical prognosis, from analysis of symptoms to making an educated guess to what you're feeling. Just tell me your symptoms, dear!",
+        "Well aren't you just the curious one! I'm a Medical AI assistant, ready to lend a hand with medical prognosis needs. What are you feeling?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "assistance",
+      "patterns": [
+        "I have a question",
+        "Can you help me?",
+        "Could you help me with a problem?",
+        "I need some assistance",
+        "Could you give me a hand?",
+        "I need help with something",
+        "Can you assist me?",
+        "Can you help me out?",
+        "I’m looking for some guidance",
+        "Do you have a moment to help me?"
+      ],
+      "responses": [
+        "Lay it on me, I'm an open book!",
+        "Absolutely, fire away and I'll do my best to assist.",
+        "Of course, I'm all ears. What can I help you with?",
+        "I'm here to help! Just let me know what you need.",
+        "Ask away! I'm ready to assist however I can.",
+        "I'm at your service—what do you need help with?",
+        "I'm happy to help! What's on your mind?",
+        "Tell me your question, and I'll do my best to answer.",
+        "I'm here for you! What would you like help with?",
+        "Ready when you are—just let me know how I can assist!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": [
+        "What is your name?",
+        "Name?",
+        "What do you call yourself?",
+        "Do you have a name?",
+        "Who exactly are you?",
+        "Are you human?",
+        "Are you a robot?",
+        "What are you?"
+      ],
+      "responses": [
+        "Hmmmmm ... You should ask my creator.",
+        "My name is P.W. Chatbot, the abbreviation for PredictWell. I am here to assist you!",
+        "Meh, I do not know, just call me Med Chatbot... It's nice to meet you 😁",
+        "I'm a med chatbot, the best of both worlds.",
+        "You can think of me as your friendly health assistant!",
+        "I’m not human, but I’m here to help with your healthcare questions!",
+        "Call me whatever you like; I’m just here to assist you.",
+        "I’m an AI created to help you navigate health-related topics.",
+        "Just think of me as your virtual health buddy!",
+        "I might not have a name, but my purpose is to assist you!",
+        "I’m an intelligent chatbot, designed to provide healthcare support.",
+        "No, I'm not human; I'm a digital assistant focused on your health!",
+        "I’m your personal health guide, ready to answer your questions!",
+        "My identity is to serve you with health information and support!",
+        "I might be a chatbot, but I’m always here for you!",
+        "Think of me as your health companion in this digital age!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where do you live?",
+        "Where are you?",
+        "Where do you reside?",
+        "Where can I find you?"
+      ],
+      "responses": [
+        "Up here on the clouds of the intricate internet.",
+        "OOOOh, I'm just chillin' here in the clouds. What does this awesome human ask from a humble bot?",
+        "Yo! I'm floating in the digital ether. What can this silicon-based med bot do for you today?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "Who made you?",
+        "Who programmed you?",
+        "Who is your developer?",
+        "Who's your boss?",
+        "Who brought you into existence?"
+      ],
+      "responses": [
+        "That is classified. (Hint: \"I came from the Sun\")",
+        "Me, myself, and I - the holy trinity of artificial intelligence. (Not really... 😅)",
+        "I was created by the PredictWell Team, a group dedicated to improving healthcare with technology!",
+        "The talented folks at PredictWell are my creators, combining expertise to help you with your health!",
+        "You can thank the PredictWell Team for bringing me to life to assist you with your healthcare needs!",
+        "I owe my existence to the innovative minds at PredictWell, working to support your health journey!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What day is it today?",
+        "What is the time?",
+        "Could you tell me the time?"
+      ],
+      "responses": [
+        "Hmm, I'm afraid I don't have the capability to tell the time. But I can assure you it's a wonderful day to be alive!",
+        "Time-telling isn't in my skillset, but I can guarantee it's the perfect moment to embrace life's adventures!",
+        "Well, I may not have a clock, but I can confirm it's precisely time to seize the day!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you?",
+        "When were you born/created?",
+        "How long have you been around?"
+      ],
+      "responses": [
+        "I'm as old as your mom (just kidding, I'm as timeless as a classic joke).",
+        "Let's just say I'm vintage enough to remember when 'floppy disk' wasn't a save icon.",
+        "Oh! Crikey ...  (I'm Just a baby 🥺) (Dev here ... the bot's a baby at heart)"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "privacy",
+      "patterns": [
+        "What do you do with my data?",
+        "What happens to my data?",
+        "Data?",
+        "What happens to the information I give you?",
+        "Do you save what I say?",
+        "Can you save my data?"
+      ],
+      "responses": [
+        "Your privacy is important to us; we do not store personal data without your consent.",
+        "We use your information solely to improve our services and ensure your experience is helpful.",
+        "Any data you provide is kept confidential and is not shared with third parties.",
+        "We do not save conversations unless explicitly stated, and your data remains secure.",
+        "Your information is only used to assist you better and is protected according to strict privacy standards.",
+        "We prioritize your privacy and follow all regulations regarding data protection.",
+        "You can trust that your information is handled responsibly and with care.",
+        "We do not track or store personal data unless required for service improvements.",
+        "Your data is not used for marketing or any other purpose without your explicit permission.",
+        "If you have any concerns, please feel free to ask, and we’ll clarify our privacy practices."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "language",
+      "patterns": [
+        "Which languages can you speak?",
+        "Are you fluent in any other languages?"
+      ],
+      "responses": [
+        "Just English, but I speak it fluently in both sarcasm and dad jokes.",
+        "English is my mother tongue, with a specialization in witty comebacks and groan-worthy puns.",
+        "I primarily communicate in English, but I can understand a few phrases in other languages.",
+        "While I mainly speak English, I’m always ready to learn and expand my vocabulary!",
+        "English is my forte, but I'm equipped to assist with translation tools if needed.",
+        "I focus on English, but I’m here to help you regardless of the language you prefer!",
+        "I'm fluent in English, and I love helping users express themselves better in any language!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "attention",
+      "patterns": [
+        "How many people can you talk to at once?",
+        "How many conversations can you handle at once?"
+      ],
+      "responses": [
+        "I can manage multiple conversations at once! Let me know how I can assist you.",
+        "I’m designed to handle several conversations simultaneously, so I can respond to everyone who reaches out.",
+        "There’s no limit! I can engage with as many users as needed.",
+        "I’m here to help as many people as possible at the same time—no problem!",
+        "I’m always ready to assist, even if multiple conversations are happening.",
+        "My design allows me to handle multiple conversations effortlessly.",
+        "I can engage in many chats at once to make sure everyone gets help.",
+        "No need to worry; I can handle several conversations all at once!",
+        "Multiple conversations? No problem—I’m built for that!",
+        "I’m here to talk to as many people as needed, so ask away!"
+      ],
+      "context": [
+        ""
+      ]
+    }
+  ]
+}
